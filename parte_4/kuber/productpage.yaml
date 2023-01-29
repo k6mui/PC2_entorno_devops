@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: productpage
-        image: <GROUP_NUMBER>/productpage
+        image: 42/productpage
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
